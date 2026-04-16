@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "name": "Premium Software Suite",
+      "description": "All-in-one business management platform",
+      "key_benefits": [
+        "Increases productivity by 40%",
+        "Reduces operational costs",
+        "Seamless integration"
+      ],
+      "price_range": "$99-299/month",
+      "target_customers": "SMB, Enterprise"
+    }
+  ],
+  "pricing": {
+    "starter": {
+      "price": 99,
+      "features": [
+        "Basic CRM",
+        "Email integration"
+      ]
+    },
+    "professional": {
+      "price": 199,
+      "features": [
+        "Advanced analytics",
+        "Custom workflows"
+      ]
+    },
+    "enterprise": {
+      "price": 299,
+      "features": [
+        "White-label",
+        "API access",
+        "Dedicated support"
+      ]
+    }
+  },
+  "objection_handlers": {
+    "too_expensive": "I understand cost is important. Let's look at the ROI - most clients see 3x return in the first 6 months.",
+    "need_time_to_think": "I appreciate you want to make a thoughtful decision. What specific concerns can I address right now?",
+    "happy_with_current_solution": "That's great! What would need to change for you to consider switching?"
+  }
+}
